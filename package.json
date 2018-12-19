@@ -11,11 +11,15 @@
     "@types/body-parser": "^1.17.0",
     "@types/cors": "^2.8.4",
     "@types/express": "^4.16.0",
+    "@types/mongodb": "^3.1.17",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
   },
   "scripts": {
-    "compile": "tslint src/**/*.ts && tsc"
+    "compile": "tslint src/**/*.ts && tsc",
+    "debug": "node --inspect=0.0.0.0:9229 dist/index.js",
+    "start": "node dist/index.js"
   }
 }
