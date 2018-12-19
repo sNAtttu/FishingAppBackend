@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.tslintIntegration": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.packageManager": "yarn"
+}
